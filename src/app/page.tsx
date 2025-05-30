@@ -1,8 +1,5 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 
-const HomePage = () => {
-  return <Button>BootCamp!</Button>;
-};
-
-export default HomePage;
+export default function Home() {
+  return <Button>Bootcamp!</Button>;
+}
